@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
 
           {/* Scroll SVG */}
-          <a href="#services">
+          <a href="#services" className="scroll">
             <svg
               width="50px"
               height="50px"
@@ -69,6 +69,10 @@ const Hero = () => {
             <a href="">
               <img src="/youtube.png" alt="" />
             </a>
+
+            <div className="followTextContainer">
+              <div className="followText">FOLLOW ME</div>
+            </div>
           </div>
 
           {/* speach bubble */}
