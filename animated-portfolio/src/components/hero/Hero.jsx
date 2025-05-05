@@ -122,6 +122,12 @@ const Hero = () => {
             </div>
           </a>
         </div>
+        <div className="bg">
+          {/* 3d structure */}
+          <div className="hImg">
+            <img src="./hero.png" alt="" />
+          </div>
+        </div>
       </div>
     </>
   );

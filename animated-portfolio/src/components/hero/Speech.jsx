@@ -8,14 +8,15 @@ const Speech = () => {
           {" "}
           <TypeAnimation
             sequence={[
+              1000,
               // Same substring at the start will only be typed out once, initially
-              "We produce food for Mice",
+              "Specialised in frontend,Mern-Stack, React.js, backend development for scalable web apps",
               1000, // wait 1s before replacing "Mice" with "Hamsters"
-              "We produce food for Hamsters",
+              "I have made a variety of full-Stack Applications",
             ]}
             wrapper="span"
-            speed={50}
-            style={{ fontSize: "2em", display: "inline-block" }}
+            speed={40}
+            deletionSpeed={60}
             repeat={Infinity}
           />
         </div>

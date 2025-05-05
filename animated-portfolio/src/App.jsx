@@ -1,30 +1,26 @@
-import Contact from "./components/contact/Contact"
-import Hero from "./components/hero/hero"
-import Portfolio from "./components/portfolio/Portfolio"
-import Services from "./components/services/Services"
+import Contact from "./components/contact/Contact";
+import Hero from "./components/hero/Hero";
+
+import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
 
 const App = () => {
   return (
-    <div className='container'>
-
+    <div className="container">
       <section id="#home">
-        
-      <Hero/>
+        <Hero />
       </section>
       <section id="#services">
-        
-      <Services/>
+        <Services />
       </section>
       <section id="#portfolio">
-        
-      <Portfolio/>
+        <Portfolio />
       </section>
       <section id="#contact">
-        
-      <Contact/>
+        <Contact />
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
